@@ -40,7 +40,7 @@ jobs:
         run: dir dist
 
       - name: Upload EXE Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: memotrace-exe
           path: dist/3-exporter.exe
